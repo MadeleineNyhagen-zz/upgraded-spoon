@@ -21,7 +21,7 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo1">
+                 <div id="apple">
                      <img src="logos/apple.png" alt="Smiley face" height="42" width="42">
                  </div>
                 <input type="text" name="company" value="">
@@ -36,7 +36,7 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo2">
+                 <div id="olympics">
                      <img src="logos/olympics.png" alt="Smiley face" height="42" width="42">
                  </div>
                 <input type="text" name="company" value="">
@@ -50,7 +50,7 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo2">
+                 <div id="playstation">
                      <img src="logos/playstation.png" alt="Smiley face" height="42" width="42">
                  </div>
                 <input type="text" name="company" value="">
@@ -64,7 +64,7 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo4">
+                 <div id="snapchat">
                      <img src="logos/snapchat.png" alt="Smiley face" height="42" width="42">
                  </div>
                 <input type="text" name="company" value="">
@@ -78,7 +78,7 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo5">
+                 <div id="starbucks">
                      <img src="logos/starbucks.png" alt="Smiley face" height="42" width="42">
                  </div>
                 <input type="text" name="company" value="">
@@ -92,19 +92,17 @@
               <fieldset>
                 <legend>What's this? Type in your answer below:</legend>
                 Response:<br>
-                 <div id="logo6">
+                 <div id="twitter">
                      <img src="logos/twitter.png" alt="Smiley face" height="42" width="42">
                  </div>
-                <input type="text" name="company" value="">
+                <input id="twitterinput" type="text" name="company" value="">
                 <br><br>
-                <input id="submit" type="button" value="submit" onclick="yourGuess();" />
+                <input id="submit" type="button" value="submit" onclick="yourGuess('twitterinput', 'twitter');" />
               </fieldset>
             </form>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
         <script type="text/javascript" src="logo_guess.js"></script>
 
 
