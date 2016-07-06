@@ -39,7 +39,6 @@ function generateNumberToGuess(confirmIt) {
     }
     
     guesses.value = '';
-    logoToGuess = Math.floor(Math.random()*500);
     guesses.value = "New number generated.\n";
     
     // Don't forget to hide the new number.
