@@ -34,12 +34,12 @@ function generateNumberToGuess(confirmIt) {
     
     // First, confirm this is what we want if the confirmIt
     // argument was passed.
-    if (confirmIt && !confirm('Restart game with new number?')) {
+    if (confirmIt && !confirm('Restart game with new logo?')) {
         return;
     }
     
     guesses.value = '';
-    guesses.value = "New number generated.\n";
+    guesses.value = "New logo generated.\n";
     
     // Don't forget to hide the new number.
     document.getElementById('logoToGuess').value = '';
