@@ -61,5 +61,5 @@ function showGuesses(){
 }
 
 window.onload = function(){
-    generateNumberToGuess();
+    generatelogoToGuess();
 }
